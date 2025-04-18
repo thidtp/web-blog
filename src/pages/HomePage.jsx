@@ -1,6 +1,6 @@
 import React from "react";
 import { Element } from "react-scroll";
-import Hero from "../components/Hero";
+import Hero from "../components/Hero/Hero";
 
 const HomePage = () => {
     return (
