@@ -9,10 +9,10 @@ const Header = () => {
                 <img src={Logo} alt="Logo-Header" />
             </Link>
             <nav className="nav_header">
-                <Link to="home" className="home active">Trang Chủ</Link>
-                <Link to="about" className="about">Giới Thiệu</Link>
-                <Link to="services" className="">Dự Án</Link>
-                <Link to="portfolio" className="nav_link_header">Liên Hệ</Link>
+                <Link to="home" smooth = {true} duration = {500} offset={-100} className="home active">Trang Chủ</Link>
+                <Link to="about" smooth = {true} duration = {500} offset={-70} className="about">Giới Thiệu</Link>
+                <Link to="project" smooth = {true} duration = {500} offset={-100}  className="">Dự Án</Link>
+                <Link to="contact" smooth = {true} duration = {500} offset={-100}  className="nav_link_header">Liên Hệ</Link>
             </nav>
         </section>
     )

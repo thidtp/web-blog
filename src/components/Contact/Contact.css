@@ -1,0 +1,106 @@
+.contact{
+    padding: 0 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.contact-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contact-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+.contact-intro img {
+    max-width: 50%;
+}
+.contact-title {
+    font-size: 1.9rem;
+    font-weight: bold;
+}
+.contact-text{
+    font-size: 1rem;
+    text-align: center;
+    padding: 0 50px;
+}
+.contact-items{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    align-items: center;
+    background-color: #e3f2fd;
+    position: relative;
+    border-radius: 20px;
+}
+.contact-items::after, .contact-items::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: conic-gradient(from var(--angle1), #e3f2fd, #bbdefb);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    padding: 3px;
+    border-radius: 20px;
+    animation: 2.5s spin1 linear infinite;
+}
+.contact-items::before{
+    filter: blur(1.5rem);
+    opacity: 0.5;
+}
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0px;
+}
+.contact-info-title{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+}
+.contact-form-group{
+    margin-top: 15px; 
+}
+.contact-form-group label{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.contact-form-group input,
+.contact-form-group textarea{
+    width: 200%;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    background-color: #b1d4f0;
+    font-size: 0.9rem;
+}
+.contact-form-group input:focus,
+.contact-form-group textarea:focus {
+    outline: none;
+}
+.submit-btn {
+    margin-top: 20px;
+    background-color: #3498db;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+.contact-image img{
+    height: 400px;
+}
