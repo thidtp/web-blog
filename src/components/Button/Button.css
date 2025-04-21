@@ -259,3 +259,9 @@
     margin-bottom: 64px;
   }
   
+
+  @media (max-width: 768px) {
+    .container1 {
+      align-items: center;
+    }
+  }
