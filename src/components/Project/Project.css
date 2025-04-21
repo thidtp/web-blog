@@ -84,3 +84,57 @@
         --angle1: 360deg;
     }
 }
+
+/* Tablet dưới 1024px */
+@media (max-width: 1024px) {
+    .project-list {
+        grid-template-columns: 1fr;
+    }
+
+    .project-text {
+        padding: 0 20px;
+    }
+
+    .project-intro img {
+        max-width: 60%;
+    }
+
+    .project-title {
+        font-size: 1.5rem;
+    }
+
+    .project-technology {
+        font-size: 0.75rem;
+    }
+}
+
+/* Mobile dưới 768px */
+@media (max-width: 768px) {
+    .project-title {
+        font-size: 1.3rem;
+    }
+
+    .project-text {
+        font-size: 0.95rem;
+        padding: 0 10px;
+    }
+
+    .project-intro img {
+        max-width: 70%;
+    }
+
+    .project-technologies {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .project-technology {
+        padding: 5px 8px;
+        font-size: 0.7rem;
+    }
+
+    .project-item-content {
+        padding: 15px;
+        gap: 15px;
+    }
+}

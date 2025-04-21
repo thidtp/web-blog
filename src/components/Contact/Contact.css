@@ -104,3 +104,56 @@
 .contact-image img{
     height: 400px;
 }
+
+
+/* Tablet */
+@media screen and (max-width: 1024px) {
+    .contact-text {
+        padding: 0 20px;
+    }
+
+    .contact-form-group input,
+    .contact-form-group textarea {
+        width: 100%;
+    }
+
+    .contact-image img {
+        height: 300px;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+    .contact-items {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+    .contact-intro img {
+        max-width: 80%;
+    }
+
+    .contact-title {
+        font-size: 1.5rem;
+    }
+
+    .contact-text {
+        font-size: 0.95rem;
+        padding: 0 10px;
+    }
+
+    .contact-info {
+        padding: 0;
+    }
+
+    .contact-form-group input,
+    .contact-form-group textarea {
+        width: 100%;
+    }
+
+    .contact-image img {
+        height: 200px;
+        width: 100%;
+        object-fit: contain;
+    }
+}
