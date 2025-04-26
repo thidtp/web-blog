@@ -29,7 +29,7 @@ export const projectContent = [
         technologies: ["C#", "SQL Server", "HTML & CSS", "JavaScript"],
     },
     {
-        title: "Hệ Thống Đặt Vé Máy Bay",
+        title: "WEBSITE TÌM NHÀ TRỌ CHO SINH VIÊN",
         description: "Website giúp sinh viên tìm phòng trọ theo vị trí, giá cả, tiện ích kèm theo.",
         image: projectImage5,
         technologies: ["ReactJS", "Tailwind CSS", "SQL Server", "NodeJS"],
