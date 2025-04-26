@@ -1,6 +1,8 @@
 import projectImage1 from "../assets/images/project-image1.png";
 import projectImage2 from "../assets/images/project-image2.png";
 import projectImage3 from "../assets/images/project-image3.png";
+import projectImage4 from "../assets/images/project-image4.png";
+import projectImage5 from "../assets/images/project-image5.png";
 export const projectContent = [
     {
         title: "Dự án quản lý giao hàng online",
@@ -21,15 +23,15 @@ export const projectContent = [
         technologies: ["Java", "Android Studio", "SQL Sever", "Web API"],
     },
     {
-        title: "Ứng Dụng Quản Lý Công Việc",
-        description: "Ứng dụng giúp người dùng quản lý công việc hàng ngày, cho phép tạo, chỉnh sửa và xóa công việc một cách dễ dàng.",
-        image: projectImage1,
-        technologies: ["React", "Node.js", "MongoDB"],
+        title: "Website Áo cưới & Dịch vụ chụp ảnh ",
+        description: "Xây dựng nền tảng hỗ trợ tổ chức và quản lý sự kiện cưới, giúp cặp đôi và nhà tổ chức dễ dàng chọn dịch vụ, theo dõi ngân sách và quản lý lịch trình",
+        image: projectImage4,
+        technologies: ["C#", "SQL Server", "HTML & CSS", "JavaScript"],
     },
     {
         title: "Hệ Thống Đặt Vé Máy Bay",
-        description: "Hệ thống cho phép người dùng tìm kiếm và đặt vé máy bay trực tuyến, cung cấp thông tin chi tiết về chuyến bay và giá vé.",
-        image: projectImage1,
-        technologies: ["React", "Node.js", "MongoDB"],
+        description: "Website giúp sinh viên tìm phòng trọ theo vị trí, giá cả, tiện ích kèm theo.",
+        image: projectImage5,
+        technologies: ["ReactJS", "Tailwind CSS", "SQL Server", "NodeJS"],
     },
 ]
